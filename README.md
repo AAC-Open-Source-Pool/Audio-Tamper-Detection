@@ -16,7 +16,6 @@
     <ol>
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#requirements">Requirements</a></li>
-        <li><a href="#code-details">Code Details</a></li>
         <li><a href="#how-to-use">How to Use</a></li>
         <li><a href="#preview">Preview</a></li>
         <li><a href="#contribution">Contribution</a></li>
@@ -27,3 +26,38 @@
         include extracting audio features, training a CNN-based model, and classifying the audio files. 
         The project focuses on providing a scalable and reliable solution for identifying tampered audio files.
     </p>
+<h2 id="requirements">Requirements</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Tool/Library</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Python</td>
+                <td>3.8 or higher</td>
+            </tr>
+            <tr>
+                <td>NumPy</td>
+                <td>For numerical computations</td>
+            </tr>
+            <tr>
+                <td>TensorFlow/Keras</td>
+                <td>Deep learning framework</td>
+            </tr>
+            <tr>
+                <td>Librosa</td>
+                <td>Audio feature extraction</td>
+            </tr>
+            <tr>
+                <td>Matplotlib</td>
+                <td>For visualizations</td>
+            </tr>
+            <tr>
+                <td>Scikit-learn</td>
+                <td>For preprocessing and evaluation</td>
+            </tr>
+        </tbody>
+    </table>
