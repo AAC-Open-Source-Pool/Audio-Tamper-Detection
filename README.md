@@ -64,7 +64,8 @@
     <p>
         <img src="https://i.imgur.com/XjANgyK.jpeg" alt="Audio Detection sample" />
     </p>
-<h2 id="contribution">Contribution</h2>
+<h2 id="contribution"></h2>
+## Contribution 
 **This section provides instructions and details on how to submit a contribution via a pull request. It is important to follow these guidelines to make sure your pull request is accepted.**
 1. Before choosing to propose changes to this project, it is advisable to go through the readme.md file of the project to get the philosophy and the motive that went behind this project. The pull request should align with the philosophy and the motive of the original poster of this project.
 2. To add your changes, make sure that the programming language in which you are proposing the changes should be the same as the programming language that has been used in the project. The versions of the programming language and the libraries(if any) used should also match with the original code.
