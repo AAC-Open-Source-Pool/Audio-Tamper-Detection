@@ -61,8 +61,48 @@
             </tr>
         </tbody>
     </table>
-<h2 id="howuse">How to use</h2>
-
+<h2 id="howuse">How to Use</h2>
+<ol>
+    <li><strong>Clone the Repository:</strong>
+        <p>Open your terminal and run the following command:</p>
+        <pre><code>git clone https://github.com/your-repo/audio-tamper-detection.git</code></pre>
+    </li>
+    <li><strong>Navigate to the Project Directory:</strong>
+        <p>Navigate to the project folder:</p>
+        <pre><code>cd audio-tamper-detection</code></pre>
+    </li>
+    <li><strong>Install Dependencies:</strong>
+        <p>Ensure Python 3.8 or higher is installed, then run:</p>
+        <pre><code>pip install -r requirements.txt</code></pre>
+    </li>
+    <li><strong>Prepare Your Dataset:</strong>
+        <p>Place your audio files in the <code>data/</code> directory. Structure your dataset like this:</p>
+        <pre>
+data/
+├── genuine/
+│   ├── genuine1.wav
+│   └── genuine2.wav
+└── tampered/
+    ├── tampered1.wav
+    └── tampered2.wav
+        </pre>
+    </li>
+    <li><strong>Extract Features from Audio Files:</strong>
+        <p>Run the feature extraction script to preprocess the data:</p>
+        <pre><code>python feature_extraction.py</code></pre>
+    </li>
+    <li><strong>Train the Model:</strong>
+        <p>Train the CNN model using the prepared dataset:</p>
+        <pre><code>python train_model.py</code></pre>
+    </li>
+    <li><strong>Test the Model:</strong>
+        <p>Use the trained model to classify a new audio file. Replace <code>path/to/audio_file</code> with the path to your audio file:</p>
+        <pre><code>python test_model.py --file_path path/to/audio_file</code></pre>
+    </li>
+    <li><strong>View Results:</strong>
+        <p>The script will output whether the audio file is classified as <code>genuine</code> or <code>tampered</code>.</p>
+    </li>
+</ol>
 
 <h2 id="preview">Preview</h2>
     <p>
