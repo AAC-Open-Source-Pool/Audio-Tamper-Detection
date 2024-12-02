@@ -77,7 +77,7 @@
     </li>
     <li><strong>Prepare Your Dataset:</strong>
         <p>download your datasets from the given link</p>
-        <a href="https://owncloud.fraunhofer.de/index.php/s/JZgXh0JEAF0elxa/download" target="_blank">Visit Example in New Tab</a>
+        <a href="https://owncloud.fraunhofer.de/index.php/s/JZgXh0JEAF0elxa/download" target="_blank">Dataset link</a>
     </li>
     <li>Execute the code:</strong>
     <pre><code>audiotampering.ipynb</code></pre>
