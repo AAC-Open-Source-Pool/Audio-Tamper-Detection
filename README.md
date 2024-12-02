@@ -16,6 +16,7 @@
     <ol>
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#howuse">How to use</a></li>
         <li><a href="#preview">Preview</a></li>
         <li><a href="#contribution">Contribution</a></li>
     </ol>
@@ -60,6 +61,9 @@
             </tr>
         </tbody>
     </table>
+<h2 id="howuse">How to use</h2>
+
+
 <h2 id="preview">Preview</h2>
     <p>
         <img src="https://i.imgur.com/XjANgyK.jpeg" alt="Audio Detection sample" />
