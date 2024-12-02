@@ -76,31 +76,14 @@
         <pre><code>pip install -r requirements.txt</code></pre>
     </li>
     <li><strong>Prepare Your Dataset:</strong>
-        <p>Place your audio files in the <code>data/</code> directory. Structure your dataset like this:</p>
-        <pre>
-data/
-├── genuine/
-│   ├── genuine1.wav
-│   └── genuine2.wav
-└── tampered/
-    ├── tampered1.wav
-    └── tampered2.wav
-        </pre>
+        <p>download your datasets from the given link</p>
+        <a href="https://owncloud.fraunhofer.de/index.php/s/JZgXh0JEAF0elxa/download" target="_blank">Visit Example in New Tab</a>
     </li>
-    <li><strong>Extract Features from Audio Files:</strong>
-        <p>Run the feature extraction script to preprocess the data:</p>
-        <pre><code>python feature_extraction.py</code></pre>
-    </li>
-    <li><strong>Train the Model:</strong>
-        <p>Train the CNN model using the prepared dataset:</p>
-        <pre><code>python train_model.py</code></pre>
-    </li>
-    <li><strong>Test the Model:</strong>
-        <p>Use the trained model to classify a new audio file. Replace <code>path/to/audio_file</code> with the path to your audio file:</p>
-        <pre><code>python test_model.py --file_path path/to/audio_file</code></pre>
+    <li>Execute the code:</strong>
+    <pre><code>audiotampering.ipynb</code></pre>
     </li>
     <li><strong>View Results:</strong>
-        <p>The script will output whether the audio file is classified as <code>genuine</code> or <code>tampered</code>.</p>
+        <p>The script will output whether the audio file is classified as <code>not tampered</code> or <code>tampered</code>.</p>
     </li>
 </ol>
 
