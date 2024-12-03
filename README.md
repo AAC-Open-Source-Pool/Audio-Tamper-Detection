@@ -41,23 +41,27 @@
             </tr>
             <tr>
                 <td>NumPy</td>
-                <td>For numerical computations</td>
+                <td>Version 1.23.1</td>
             </tr>
             <tr>
                 <td>TensorFlow/Keras</td>
-                <td>Deep learning framework</td>
+                <td>Version 2.12</td>
             </tr>
             <tr>
                 <td>Librosa</td>
-                <td>Audio feature extraction</td>
+                <td>Version 0.1.1</td>
             </tr>
             <tr>
                 <td>Matplotlib</td>
-                <td>For visualizations</td>
+                <td>Version 3.7.1</td>
             </tr>
             <tr>
                 <td>Scikit-learn</td>
-                <td>For preprocessing and evaluation</td>
+                <td>Version 1.2.2</td>
+            </tr>
+            <tr>
+                <td>Pandas</td>
+                <td>Version 1.5.3</td>
             </tr>
         </tbody>
     </table>
