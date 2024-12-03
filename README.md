@@ -77,7 +77,7 @@
     </li>
     <li><strong>Install Dependencies:</strong>
         <p>Ensure Python 3.8 or 3.9 is installed, then run:</p>
-        <pre><code>pip install numpy tensorflow librosa matplotlib scikit-learn
+        <pre><code>pip install numpy tensorflow librosa matplotlib scikit-learn pandas
 </code></pre>
     </li>
     <li><strong>Prepare Your Dataset:</strong>
