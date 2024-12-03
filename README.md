@@ -31,7 +31,7 @@
         <thead>
             <tr>
                 <th>Tool/Library</th>
-                <th>Details</th>
+                <th>Versions</th>
             </tr>
         </thead>
         <tbody>
