@@ -37,7 +37,7 @@
         <tbody>
             <tr>
                 <td>Python</td>
-                <td>3.8 or higher</td>
+                <td>3.8 or 3.9</td>
             </tr>
             <tr>
                 <td>NumPy</td>
@@ -76,7 +76,7 @@
         <pre><code>cd audio-tamper-detection</code></pre>
     </li>
     <li><strong>Install Dependencies:</strong>
-        <p>Ensure Python 3.8 or higher is installed, then run:</p>
+        <p>Ensure Python 3.8 or 3.9 is installed, then run:</p>
         <pre><code>pip install numpy tensorflow librosa matplotlib scikit-learn
 </code></pre>
     </li>
