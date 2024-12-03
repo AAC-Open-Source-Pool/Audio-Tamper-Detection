@@ -49,7 +49,7 @@
             </tr>
             <tr>
                 <td>Librosa</td>
-                <td>Version 0.1.1</td>
+                <td>Version 0.10.0</td>
             </tr>
             <tr>
                 <td>Matplotlib</td>
