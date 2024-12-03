@@ -85,10 +85,10 @@
         <a href="https://owncloud.fraunhofer.de/index.php/s/JZgXh0JEAF0elxa/download" target="_blank">Dataset link</a>
     </li>
     <li>Execute the code:</strong>
-    <pre><code>audiotampering.ipynb</code></pre>
+    <pre><code> jupyter notebook audiotampering.ipynb</code></pre>
     </li>
     <li><strong>View Results:</strong>
-        <p>The script will output whether the audio file is classified as <code>not tampered</code> or <code>tampered</code>.</p>
+        <p>The script will analyze the input the audio file and classify it as <code>not tampered</code> or <code>tampered</code>.</p>
     </li>
 </ol>
 
